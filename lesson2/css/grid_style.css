@@ -1,9 +1,5 @@
 @font-face {
-  font-family: hurtmold;
-  src: url(hurtmold.otf);
-  /*src: url(fonts/hurtmold.ttf),
-    src: url(fonts/hurtmold.woof),
-    src: url(fonts/hurtmold.woof2);*/
+  @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 }
 
 @font-face {
@@ -29,7 +25,7 @@ body {
 
 .name {
   letter-spacing: 1px;
-  font-family: hurtmold;
+  font-family: 'Krona One', sans-serif;
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
@@ -43,7 +39,7 @@ body {
   margin-right: auto;
   margin-top: 40px;
   margin-bottom: 40px;
-  font-family: Helvetica, sans-serif;
+  font-family: 'Roboto Mono', monospace;
   background-color: #ffa500;
   -webkit-box-shadow: 0px 0px 14px 18px #FFA500;
   box-shadow: 0px 0px 14px 18px #FFA500;
@@ -148,7 +144,7 @@ nav a {
   width: 90%;
   word-wrap: break-word;
   justify-content: center;
-  font-family: bahnshrift;
+  font-family: 'Roboto Mono', monospace;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
@@ -188,8 +184,8 @@ nav a {
   margin-bottom: 30px;
   -webkit-box-shadow: 0px 0px 4px 5px #1D77CC;
   box-shadow: 0px 0px 4px 5px #1D77CC;
-  height: 250px;
-
+  height: 300px;
+  
 }
 
 .item5 {
@@ -201,7 +197,7 @@ nav a {
   margin-bottom: 30px;
   -webkit-box-shadow: 0px 0px 4px 5px #1D77CC;
   box-shadow: 0px 0px 4px 5px #1D77CC;
-  height: 250px;
+  height: 300px;
 }
 
 .item6 {
@@ -213,7 +209,7 @@ nav a {
   margin-bottom: 30px;
   -webkit-box-shadow: 0px 0px 4px 5px #1D77CC;
   box-shadow: 0px 0px 4px 5px #1D77CC;
-  height: 250px;
+  height: 300px;
 }
 
 .desc {

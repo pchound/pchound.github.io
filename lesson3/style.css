@@ -1,0 +1,163 @@
+
+@font-face
+	{
+		font-family: Roboto;
+		src: url(Roboto-Medium.ttf);
+		/*src: url(fonts/hurtmold.ttf),
+		src: url(fonts/hurtmold.woof),
+		src: url(fonts/hurtmold.woof2);*/
+	}
+
+@font-face
+	{
+		font-family: Roboto-Thin;
+		src: url(Roboto-Thin.ttf);
+		/*src: url(fonts/hurtmold.ttf),
+		src: url(fonts/hurtmold.woof),
+		src: url(fonts/hurtmold.woof2);*/
+	}
+
+
+body {
+    background: rgb(255,255,255);
+    background: -moz-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(228,228,228,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(228,228,228,1) 100%);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(228,228,228,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#e4e4e4",GradientType=1);
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .name {
+    letter-spacing: .1 em;
+    font-family: Roboto;
+    letter-spacing: 3px;
+    
+    
+    font-size: 4em;
+    color: white;
+
+   
+  }
+  .logo_and_title
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center
+    
+  }
+  #sun
+  {
+    width: 90px;
+    height: 90px;
+    float: left;
+    position: relative;
+    right: 15px;
+    bottom: 4px;
+  }
+
+
+
+
+
+nav ul { 
+  font-family: Roboto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+}
+
+nav {
+	background-color: #36454f;
+	text-align: center;
+	
+  
+  max-width: 767px;
+	margin: 0 auto;
+  position: relative;
+  bottom: 30px;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav ul li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+}
+nav a:hover {
+	background-color: #bbb;
+	color: #36454f;
+}
+
+
+.box,  footer {
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 40px;
+margin-bottom: 40px;
+font-family: Helvetica, sans-serif;
+
+text-align: center;
+font-family: bahnshrift;
+
+
+
+background: rgb(0,53,76);
+background: -moz-linear-gradient(90deg, rgba(0,53,76,1) 0%, rgba(0,81,109,1) 50%, rgba(0,53,76,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(0,53,76,1) 0%, rgba(0,81,109,1) 50%, rgba(0,53,76,1) 100%);
+background: linear-gradient(90deg, rgba(0,53,76,1) 0%, rgba(0,81,109,1) 50%, rgba(0,53,76,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00354c",endColorstr="#00354c",GradientType=1);
+  }
+
+  #profile_img {
+    
+    border-radius: 30px;
+    -webkit-box-shadow: 5px 5px 15px 5px #A3A3A3; 
+    box-shadow: 5px 5px 15px 5px #A3A3A3;
+    height: auto;
+    max-width: 250px;
+    position: relative;
+    margin: 30px 25px 30px 25px;
+    float: right;
+    
+  }
+
+  nav{
+
+    text-align: center;
+    text-decoration: none;
+
+  }
+  nav a{
+    text-decoration: none;
+  }
+
+  main{
+      
+      background-color: white;
+      font-family: Roboto;
+  }
+  
+  .main_margins
+  {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer_info, a:link, a:visited
+  {
+    
+    font-size: .9em;
+    font-family: Roboto-Thin;
+    color: white;
+  }

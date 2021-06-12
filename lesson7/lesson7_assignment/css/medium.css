@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media only screen and (max-width: 1216px)
 {
     #gallery
@@ -43,4 +44,51 @@
     {
       height: 270px;
     }
+=======
+@media only screen and (max-width: 1216px)
+{
+    #gallery
+    {
+      grid-template-columns: 50% 50%;
+      
+    }
+
+    body{
+        width: 85%;
+    }
+
+    nav ul { 
+    grid-template-columns: repeat(auto-fill, minmax(278px, 1fr));
+    }
+    nav ul li a
+    {
+        font-size: 1.3em;
+        border: 1px solid #0c0d33;
+    }
+    #saturday_event
+    {
+        width: 100%;
+    }
+
+    .weather_today
+    {
+        top: 5%;
+    }
+
+    .column
+    {
+        margin-top: 20px;
+    }
+
+    .event_icon
+    {
+      left: 2px;
+      float: none;
+    }
+
+    #saturday_event
+    {
+      height: 270px;
+    }
+>>>>>>> d08d44be9622de1fc454340a954d432227189462
 }

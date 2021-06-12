@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body
 {
     font-family: Ubuntu, sans-serif;
@@ -52,4 +53,59 @@ tbody tr:nth-child(odd)
 {
     background-color: #628ca6;
     color: white;
+=======
+body
+{
+    font-family: Ubuntu, sans-serif;
+}
+
+thead
+{
+    height: 40px;
+    font-size: 1.5em;
+}
+
+thead
+{
+    background-color: #7fb9c2;
+}
+
+tfoot
+{
+    background-color: #7fb9c2;
+}
+
+table
+{
+    -webkit-box-shadow: 5px 5px 15px 3px rgba(98,140,166,0.6); 
+    box-shadow: 5px 5px 15px 3px rgba(98,140,166,0.6);
+}
+
+table, th, td 
+{
+    border: 1px solid #b1b1b1;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td
+{
+    padding: 7px;
+}
+
+tbody tr:nth-child(even)
+{
+    background-color: #e7ffed;
+}
+
+tbody tr:nth-child(odd)
+{
+    
+    background-color: #e7f0ed;
+}
+.special
+{
+    background-color: #628ca6;
+    color: white;
+>>>>>>> d08d44be9622de1fc454340a954d432227189462
 }

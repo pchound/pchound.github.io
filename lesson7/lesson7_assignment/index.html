@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!doctype html>
 <html lang="en-us">
 
@@ -220,4 +221,228 @@
 
 
 </body>
+=======
+<!doctype html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/large.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/small.css">
+  
+  <title>Weather Dog - Home</title>
+
+</head>
+
+<body>
+
+  <div id="saturday_event">
+    <div class="event_text_bg">
+      <img src="images/icon3.jpg" class="event_icon" alt="pancake">
+      <div class="event_text">
+        Saturday = Preston Pancakes in the Park!<br>9:00 a.m. Saturday at the city park pavilion.
+      </div>
+    </div>
+  </div>
+
+  <header>
+    <div class="box">
+      <div class="logo_and_title">
+        <img src="images/sun.png" id="sun" alt="sun">
+        <h1 class="name">Weather Dog</h1>
+      </div>
+      <p class="motto">Always watching for forecasts</p>
+    </div>
+
+
+  </header>
+  <nav>
+    <ul class="navigation">
+      <li class="ham"><a class="ham_link" href="#"><span class="ham_text"> Menu &equiv;</span></a></li>
+      <li><a href="index.html" class="active_link"><span class="li_text">Home</span></a></li>
+      <li><a href="#"><span class="li_text">Preston</span></a></li>
+      <li><a href="#"><span class="li_text">Soda Springs</span></a></li>
+      <li><a href="#"><span class="li_text">Fish Haven</span></a></li>
+      <li><a href="#"><span class="li_text">Storm Center</span></a></li>
+      <li><a href="gallery.html"><span class="li_text">Gallery</span></a></li>
+    </ul>
+  </nav>
+
+
+  <div class="main_image_area">
+    <!--<img src="images/mountain_short.jpg" alt="mountains" id="main_image"><br>-->
+    <picture>
+        <source srcset="images/range_large.jpg" media="(min-width: 1217px)">
+        <source srcset="images/range_medium.jpg" media="(min-width: 630px)">
+        <img src="images/range_small.jpg" alt="A beautiful grassy mountain range" id="main_image">
+    </picture>
+    <section class="weather_today">
+      <h2 class="today_title">Today's forecast</h2>
+      <ul>
+        
+          <li>Currently: Sunny</li>
+          <li>High: <span id="temperature">40</span> F</li>
+          <li>Low: 30 F</li>
+          <li>Wind Chill: <span id="wind_chill"></span> F</li>
+          <li>Humidity: 40%</li>
+          <li>Wind Speed: <span id="wind_speed">7</span> mph</li>
+          <li>Percepitation: 0%</li>
+          
+        
+      </ul>
+    </section>
+  </div>
+
+
+
+  <h1 id="five_day_title">5 day forecast</h1>
+  <section class="weather_report">
+
+
+    <div class="column">
+
+      <div class="column-col">
+        <span class="col-head">Sun</span>
+        <div class="data">
+          <span class="high">72</span>
+          <img src="images/sunny.png" alt="sunny" class="weather_icon">
+          <span class="low">53</span>
+        </div>
+      </div>
+
+      <div class="column-col">
+        <span class="col-head">Mon</span>
+        <div class="data">
+          <span class="high">80</span>
+          <img src="images/sunny.png" alt="sunny" class="weather_icon">
+          <span class="low">60</span>
+        </div>
+      </div>
+
+      <div class="column-col">
+        <span class="col-head">Tue</span>
+        <div class="data">
+          <span class="high">75</span>
+          <img src="images/sunny.png" alt="sunny" class="weather_icon">
+          <span class="low">51</span>
+        </div>
+      </div>
+
+      <div class="column-col">
+        <span class="col-head">Wed</span>
+        <div class="data">
+          <span class="high">72</span>
+          <img src="images/sunny.png" alt="sunny" class="weather_icon">
+          <span class="low">53</span>
+        </div>
+      </div>
+
+      <div class="column-col">
+        <span class="col-head">Thu</span>
+        <div class="data">
+          <span class="high">65</span>
+          <img src="images/sunny.png" alt="sunny" class="weather_icon">
+          <span class="low">41</span>
+        </div>
+      </div>
+
+      <div class="column-col">
+        <span class="col-head">Fri</span>
+        <div class="data">
+          <span class="high">68</span>
+          <img src="images/sunny.png" alt="sunny" class="weather_icon">
+          <span class="low">49</span>
+        </div>
+      </div>
+
+      <div class="column-col">
+        <span class="col-head">Sat</span>
+        <div class="data">
+          <span class="high">71</span>
+          <img src="images/sunny.png" alt="sunny" class="weather_icon">
+          <span class="low">50</span>
+        </div>
+      </div>
+
+
+    </div>
+
+  </section>
+<br>
+
+  <main>
+    <div class="main_margins">
+      <br>
+      <!--<ul>
+        <li class="main_info_li"><a href="#"><span class="main_info_text">Hero w/weather summary</span></a></li>
+        <li class="main_info_li"><a href="#"><span class="main_info_text">5 Day Forecast</span></a></li>
+        <li class="main_info_li"><a href="#"><span class="main_info_text">Article</span></a></li>
+        <li class="main_info_li"><a href="#"><span class="main_info_text">Contact Information</span></a></li>
+      </ul>-->
+      
+      
+        <a href="#"><img src="images/article_img_small.jpg" alt="mountains" class="article_img_right"></a>
+        <h1><a href="#" class="article_link">Article Title</a></h1>
+        (This is randomly generated. Don't expect it to make sense.)
+        <br><br>
+        Sleeping in his car was never the plan but sometimes things don't work out as planned. This had been his life for the last three months and he was just beginning to get used to it. He didn't actually enjoy it, but he had accepted it and come to terms with it. Or at least he thought he had. All that changed when he put the key into the ignition, turned it and the engine didn't make a sound.
+        <br><br>
+        I recollect that my first exploit in squirrel-shooting was in a grove of tall walnut-trees that shades one side of the valley. I had wandered into it at noontime, when all nature is peculiarly quiet, and was startled by the roar of my own gun, as it broke the Sabbath stillness around and was prolonged and reverberated by the angry echoes.
+        Do you really listen when you are talking with someone? I have a friend who listens in an unforgiving way. She actually takes every word you say as being something important and when you have a friend that listens like that, words take on a whole new meaning.
+        Eating raw fish didn't sound like a good idea. "It's a delicacy in Japan," didn't seem to make it any more appetizing. Raw fish is raw fish, delicacy or not.
+      
+      <br><br>
+    </div>
+    
+  </main>
+
+ 
+<div class="uppper_footer"><br>
+ 
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46051.85112188119!2d-111.82328821892852!3d43.83010699615083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540a4b807a98b1%3A0x4a49d8d1d2181c73!2sRexburg%2C%20ID!5e0!3m2!1sen!2sus!4v1622330107266!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" class="map"></iframe>
+  <div class="uppper_footer_text">
+    <h1>Contact</h1>
+
+    <ul>
+      <li>Phone: (XXX)XXX-XXXX</li>
+      <li>Address: 1234 N 456 E</li>
+      <li>Email: josephgarner@byui.edu</li>
+    </ul>
+
+    <a href="https://www.facebook.com" id="facebook"></a>
+    <a href="https://twitter.com" id="twitter"></a>
+    <a href="https://www.instagram.com" id="instagram"></a>
+    <a href="https://www.youtube.com" id="youtube"></a>
+  </div>
+</div>
+
+
+  <footer>
+    <div class="footer_info">
+      <div class="footer_info_text">
+        <div id="current_date"></div>
+        <div id="year_clock"></div>
+        
+      </div>
+    </div>
+  </footer>
+  <!--<script src="js/current_date.js"></script>-->
+  <script src="js/mobile.js"></script>
+  <script src="js/weekend.js"></script>
+  <script src="js/year_clock.js"></script>
+  <script src="js/windchill.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script src="js/my_font_loader.js"></script>
+ 
+
+
+</body>
+>>>>>>> d08d44be9622de1fc454340a954d432227189462
 </html>

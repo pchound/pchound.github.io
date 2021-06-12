@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media only screen and (max-width: 896px)
 {
     body
@@ -89,4 +90,97 @@
         position: relative;
         top: 10px;
       }
+=======
+@media only screen and (max-width: 896px)
+{
+    body
+    {
+        width: 95%;
+    }
+
+    nav { 
+        
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      nav ul
+      {
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+        font-size: 1.7em;
+        
+      }
+
+      nav li{
+        display: none;
+      }
+
+      nav ul li a
+      {
+        height: 60px;
+        border: 1px solid #0c0d33;
+        font-size: 1em;
+      }
+
+ 
+      .li_text
+      {
+        position: relative;
+        top: 13px;
+      }
+
+      .mobile
+      {
+          display: block;
+          background-color: rgb(29, 33, 53);
+          
+      }
+
+      .ham
+      {
+        display: block;
+        
+        background-color: rgb(46, 46, 46);
+      }
+      
+      .ham_text
+      {
+        outline: 0px;
+        position: relative;
+        top: 10px;
+      }
+
+
+
+      nav li:first-child {
+        display: block;
+        
+      }
+
+      .responsive li {
+        display: block;
+      }
+
+      .main_margins
+      {
+        width: 100%;
+        margin-left: -20px;
+      }
+
+      .main_info_li a
+      {
+        font-size: 1.3em;
+        height: 60px;
+      }
+
+      .footer_info
+      {
+        font-size: 1.2em;
+        height: 70px;
+        position: relative;
+        top: 10px;
+      }
+>>>>>>> d08d44be9622de1fc454340a954d432227189462
 }

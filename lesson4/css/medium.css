@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media only screen and (max-width: 1216px)
 {
     body{
@@ -12,4 +13,20 @@
         font-size: 1.3em;
     }
 
+=======
+@media only screen and (max-width: 1216px)
+{
+    body{
+        width: 85%;
+    }
+
+    nav ul { 
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    }
+    nav ul li a
+    {
+        font-size: 1.3em;
+    }
+
+>>>>>>> d08d44be9622de1fc454340a954d432227189462
 }

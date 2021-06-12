@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<div id="seconds"></div>
+<div id="minutes"></div>
+<div id="hours"></div>
+<div id="days"></div>
+
+<script>
+  /*var d = new Date();
+  var hours = d.getHours();
+  var days = 0;
+  
+  var hours_string = hours.toString();
+  document.getElementById("hours").innerHTML = hours_string;
+    
+    if (hours == 0)
+    {
+      days++;
+      localstorage.setItem('days', document.getElementById('days').value);
+      var days_string = days.toString();
+      document.getElementById("days").innerHTML = days_string + " days since last visit. If";
+    }
+
+    else{
+      var days_string = days.toString();
+      document.getElementById("days").innerHTML = days_string + " days since last visit. Else";
+    }*/
+  
+
+    var timer;
+    var timerStart;
+    var timeSpentOnSite = getTimeSpentOnSite();
+
+    function getTimeSpentOnSite(){
+        timeSpentOnSite = parseInt(localStorage.getItem('timeSpentOnSite'));
+        timeSpentOnSite = isNaN(timeSpentOnSite) ? 0 : timeSpentOnSite;
+        return timeSpentOnSite;
+    }
+
+    function startCounting(){
+        timerStart = Date.now();
+        timer = setInterval(function(){
+            timeSpentOnSite = getTimeSpentOnSite()+(Date.now()-timerStart);
+            localStorage.setItem('timeSpentOnSite',timeSpentOnSite);
+            timerStart = parseInt(Date.now());
+         
+            document.getElementById("seconds").innerHTML = (parseInt(timeSpentOnSite/1000));
+            document.getElementById("minutes").innerHTML = (parseInt(timeSpentOnSite/60000));
+            /*days*/document.getElementById("days").innerHTML = (parseInt(timeSpentOnSite/86400000)) + " day(s) since last visit.";
+
+          },1000);
+}
+startCounting();
+print
+
+
+</script>
+
+</body>
+</html>
+
+
+<!--<!DOCTYPE html>
+<html>
+<body>
+
+<div id="date"></div>
+<div id="outcome"></div>
+
+<script>
+  /*var myVar = setInterval(myTimer, 1000);*/
+  var days = 0;
+  document.getElementById('outcome').innerHTML = days + " days since last visit."
+  /*function myTimer() {
+    
+    var d = new Date();
+    document.getElementById("date").innerHTML = d.toLocaleTimeString();
+    document.getElementById("days").innerHTML = days;
+    if (d >= 11)
+    {
+      days +=1;
+    }
+  }*/
+</script>
+
+</body>
+</html>-->

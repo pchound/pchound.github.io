@@ -1,0 +1,45 @@
+@media only screen and (max-width: 32.5em)
+{
+    body
+    {
+        width: 85%;
+    }
+
+    #profile_img
+    {
+        height: auto;
+        width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+    .left
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        width: 90%;
+        text-align: center;
+    }
+    .lesson_link_box, .lesson_link_text
+    {
+        margin-left: 0px;
+    }
+
+    .lesson_link_box
+    {
+        height: 80px;
+    }
+
+    .lesson_link_text
+    {
+        left: 0px;
+        font-size: 1.3em;
+    }
+    footer
+    {
+        font-size: 1.2em;
+    }
+}

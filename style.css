@@ -1,3 +1,4 @@
+
 @font-face
 	{
 		font-family: hurtmold;
@@ -23,13 +24,13 @@ body {
     background: -webkit-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(228,228,228,1) 100%);
     background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(228,228,228,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#e4e4e4",GradientType=1);
-    max-width: 60%;
+    width: 60%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
   }
 
-  #name {
+  .name {
     letter-spacing: .1 em;
     font-family: hurtmold;
     padding-top: 10px;
@@ -50,7 +51,8 @@ body {
     -webkit-box-shadow: 0px 0px 14px 18px #FFA500; 
     box-shadow: 0px 0px 14px 18px #FFA500;
     border-radius: 30px;
-    
+    text-align: center;
+    font-family: bahnshrift;
   }
 
   #profile_img {
@@ -76,15 +78,11 @@ body {
     text-decoration: none;
   }
 
-  .nav_link{
-    margin-left: 15px;
-    margin-right: 15px;
-  }
+
 
   .main
   {
       overflow: auto;
-
   }
   .left
   {
@@ -106,8 +104,9 @@ body {
     background-color: #6fcaff;
     -webkit-box-shadow: 0px 0px 8px 7px #6FCAFF; 
     box-shadow: 0px 0px 8px 7px #6FCAFF;
-    font-size: 1.6em;
-    margin-left: 5%;
+    font-size: 1.2em;
+    margin-left: 3%;
+    
     border-radius: 10px;
     font-family: bahnshrift;
     font-weight: 100;
@@ -123,6 +122,7 @@ body {
     display: block;
     position: relative;
     left: 20px;
+    top: 7px;
     text-decoration: none;
   }
 
@@ -130,13 +130,10 @@ body {
   {
     color: darkblue;
   }
-   .lesson_link_text:hover
-  {
-    color: green;
-  }
 
-  .box
+  .lesson_link_box:hover
   {
-    text-align: center;
-    font-family: bahnshrift;
+    background-color: cyan;
+    -webkit-box-shadow: 0px 0px 8px 7px cyan; 
+    box-shadow: 0px 0px 8px 7px cyan;
   }

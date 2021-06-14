@@ -3,6 +3,7 @@
 
 
 
+
 label:nth-child(even)
 {
   
@@ -225,7 +226,8 @@ input:nth-child(even)
         position: relative;
         top: -800px;
        margin-left: 8%;
-        width: 100%;
+      
+        width: 85%;
         display: block;
         margin-bottom: -1450px;
       }

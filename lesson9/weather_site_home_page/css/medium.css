@@ -1,0 +1,168 @@
+@media only screen and (max-width: 1216px)
+{
+    /*#gallery
+    {
+      grid-template-columns: 1fr 1fr;
+      
+    }*/
+
+    .main_image_area
+    {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin: auto;
+      
+      height: 1000px;
+      
+    }
+
+    #main_image
+    {
+      display: none;
+      
+    }
+
+    .towns
+    {
+      margin-left: 2.5%;
+      top: 450px;
+      width: 75%;
+      grid-template-columns: 100%;
+      text-align: center;
+    }
+
+    .home_img
+    {
+     /* min-width: 50%;
+      max-width: 100%;*/
+      min-width: 380px;
+      max-width: 380px;
+      /*margin-right: 40%;*/
+      
+      
+    } 
+    
+    .data
+    {
+      
+    }
+
+    .year_founded, .population, .rain_fall
+    {
+       width: 200px;
+    }
+
+
+    .town
+    {
+      padding-right: 30px;
+      padding-left: 30px;
+      height: 290px;
+
+    }
+
+    .article_grid
+    {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      width: 100%;
+     grid-gap: 1%;
+      
+
+    }
+    
+  
+    
+    .town:nth-child(odd) img {
+      grid-column: 2;
+      
+    }
+    
+    .town:nth-child(odd) .data {
+      grid-column: 1;
+      grid-row: 1;
+      margin-left: -20px;
+
+    }
+    
+
+
+
+    nav ul { 
+      grid-template-columns: repeat(auto-fill, minmax(278px, 1fr));
+    }
+    nav ul li a
+    {
+      font-size: 1.3em;
+      border: 1px solid #0c0d33;
+    }
+    #saturday_event
+    {
+        width: 100%;
+    }
+
+    .weather_today
+    {
+        top: 5%;
+    }
+
+    .column
+    {
+        margin-top: 20px;
+    }
+
+    .event_icon
+    {
+      left: 2px;
+      float: none;
+    }
+
+    #saturday_event
+    {
+      height: 270px;
+    }
+
+
+    #storm_form_section
+    {
+      height: 1600px;
+    }
+
+    #storm_form
+    {
+
+      top: 1200px;
+
+    }
+
+    input[type=radio]
+    {
+      margin-top: 12px;
+      margin-bottom: 12px;
+      transform: scale(1.8);
+    }
+
+    .bar::-webkit-slider-thumb
+    {
+      height: 40px;
+      width: 40px;
+    }
+
+    .bar::-moz-range-thumb
+    {
+      height: 40px;
+      width: 40px;
+    }
+
+    .bar
+    {
+      margin-top: 35px;
+      margin-bottom: 35px;
+      height: 10px;
+    }
+    label, #radio_buttons_header
+    {
+      font-size: 1em;
+    }
+}

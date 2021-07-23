@@ -1,0 +1,777 @@
+  @import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@media only screen and (max-width: 1029px)
+{
+
+  .mobile_br
+  {
+      display: none;
+  }
+
+  body{
+    background: rgb(255,255,255);
+    background: -moz-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(231,231,231,1) 75%, rgba(199,199,199,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(231,231,231,1) 75%, rgba(199,199,199,1) 100%);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(231,231,231,1) 75%, rgba(199,199,199,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#c7c7c7",GradientType=1);
+    font-family: 'Spartan', sans-serif;
+  }
+  
+
+  .main_logo
+  {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 500px;
+    
+  }
+
+      .ham
+      {
+        display: none;
+      }
+      nav ul { 
+        display: grid;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        font-family: 'Spartan', sans-serif;
+        
+      }
+      
+      nav {	
+        width: 80%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+      
+        font-family: Roboto;
+        text-decoration: none;
+        -webkit-box-shadow: 0px 11px 15px 0px rgba(68,68,68,0.72); 
+        box-shadow: 0px 11px 15px 0px rgba(68,68,68,0.72);
+        border-top: 2px solid #ff7f00;
+        border-bottom: 2px solid #ff7f00;
+        /*border-left: 2px solid #ff7f00;*/
+        border-right: 4px solid #ff7f00;
+      }
+      
+      nav a {
+        display: block;
+        background-color: #206482;
+        text-align: center;
+        padding: 0.75rem;
+        text-decoration: none;
+        font-size: 0.95rem;
+        color: white;
+        width: 100%;
+
+        border-top: 2px solid #ff7f00;
+        border-bottom: 2px solid #ff7f00;
+        border-left: 4px solid #ff7f00;
+        
+
+      }
+      
+      nav a:hover {
+        background-color: #bbb;
+        color: #36454f;
+      }
+      
+      nav ul li a:active, .active_link{
+        background-color: rgb(255, 255, 255);
+        color: #36454f;
+
+      }
+
+
+      nav ul { 
+        grid-template-columns: 1fr 1fr;        
+      }
+  
+      nav ul li a
+      {
+        font-size: 1.3em;
+       
+      }
+      .weather_alert
+      {
+      background-color: rgb(255, 78, 34);
+      border-radius: 10px;
+      height: 80px;
+      font-family: 'Spartan', sans-serif;
+      width: 76%;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      text-align: center;
+      color: white;
+      padding: 20px;
+      padding-bottom: 20px;
+     
+      }
+
+      .weather_alert_text
+      {
+        position: relative;
+        bottom: 95px;
+        margin-bottom: -30px;
+      }
+
+.closebtn {
+  color: white;
+  font-weight: bold;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  height: 85px;
+  width: 50px;
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.3s;
+  position: relative;
+  left: 47%;
+  bottom: 10px;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }
+
+  .big_pic
+  {
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 95%;
+    -webkit-box-shadow: 0px 7px 15px -4px rgba(0,0,0,0.68); 
+    box-shadow: 0px 7px 15px -4px rgba(0,0,0,0.68);
+  }
+
+
+  #three_businesses
+  {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    row-gap: 30px;
+    margin-left: 7%;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .business
+  {
+    
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .business_box
+  {
+    background-color: #145571;
+    width: 80%;
+    display: block;
+    padding: 20px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    -webkit-box-shadow: 0px 7px 15px -4px rgba(0,0,0,0.68); 
+    box-shadow: 0px 7px 15px -4px rgba(0,0,0,0.68);
+  }
+
+
+
+
+
+
+
+
+
+
+
+  #icon1, #icon2, #icon3
+{
+  position: relative;
+  bottom: 20px;
+}
+
+.average
+{
+  font-size: .6em;
+}
+
+.data
+{
+  font-size: 1.5em;
+  position: relative;
+  bottom: 10px;
+}
+#weather_box_outline
+{
+  margin-top: 100px;
+  border: 20px solid #FFA300;
+  height: 700px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-shadow: 0px 7px 15px -4px rgba(0,0,0,0.68); 
+  box-shadow: 0px 7px 15px -4px rgba(0,0,0,0.68);
+}
+
+.col-head 
+{
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #FFA300;
+  text-align: center;
+  font-size: 1.8em;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.column_group {
+
+font-family: Roboto;
+column-count: 3;
+width: 600px;
+
+margin-left: auto;
+margin-right: auto;
+margin-top: 30px;
+
+}
+
+.column-col {
+
+font-family: 'Spartan', sans-serif;
+background-color: #2d357c;
+width: 150px;
+text-align: center;
+color: white;
+border: 5px solid #FFA300;
+height: 185px;
+-webkit-box-shadow: 0px 7px 15px -4px rgba(0,0,0,0.68); 
+box-shadow: 0px 7px 15px -4px rgba(0,0,0,0.68);
+}
+
+#north_ogden_weather_header
+{
+  
+  font-family: 'Spartan', sans-serif;
+  color: black;
+  text-align: center;
+  margin-top: 50px;
+  text-shadow: 0px 5px 6px rgba(150, 150, 150, 0.48);
+  
+}
+.todays_forecast_header
+{
+  font-family: 'Spartan', sans-serif;
+  color: black;
+  text-align: center;
+  margin-top: 50px;
+  text-shadow: 0px 5px 6px rgba(150, 150, 150, 0.48);
+}
+
+.weather_today ul
+{
+list-style-type: none;
+width: 70%;
+margin: 0 auto;
+font-family: 'Roboto Mono', monospace;
+text-align: center;
+font-size: 1.1em;
+position: relative;
+right: 20px;
+
+
+}
+
+.weather_today li
+{
+  color: white;
+  background-color: #2d357c;
+  
+  margin-bottom: 5px;
+  padding: 10px;
+  border: 0px solid #FFA300;
+  -webkit-box-shadow: 0px 7px 15px -4px rgba(0,0,0,0.68); 
+  box-shadow: 0px 7px 15px -4px rgba(0,0,0,0.68);
+}
+.upcoming_forecast_header
+{
+  font-family: 'Spartan', sans-serif;
+  color: black;
+  text-align: center;
+  text-shadow: 0px 5px 6px rgba(150, 150, 150, 0.48);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#upcoming_events_header, #contact_header
+{
+  text-align: center;
+}
+
+#events, #contact
+{
+  
+  color: white;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #2d357c;
+  border: 8px solid #FFA300;
+  width: 90%;
+  -webkit-box-shadow: 0px 7px 15px -4px rgba(0,0,0,0.68); 
+  box-shadow: 0px 7px 15px -4px rgba(0,0,0,0.68);
+}
+
+#last
+{
+  color: white;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #206482;
+  -webkit-box-shadow: 0px 7px 15px -4px rgba(0,0,0,0.68); 
+  box-shadow: 0px 7px 15px -4px rgba(0,0,0,0.68);
+  width: 50%;
+  font-size: 1em;
+}
+#events
+{
+  font-size: 1.2em;
+}
+
+
+
+#events li
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-right: 50px;
+  list-style-type: none;
+}
+
+#events_list li:nth-child(even)
+{
+  
+  margin-bottom: 30px;
+}
+
+#events_list, #contact
+{
+  
+  font-size: .8em;
+  line-height: 20px;
+}
+.event_time
+{
+  margin-bottom: 30px;
+}
+
+#weather_box_outline
+{
+  margin-top: 20px;
+  border: 15px solid #FFA300;
+  height: 730px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contact_info
+{
+  text-align: center;
+  font-size: 1.2em;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer
+{
+  height: 40px;
+}
+#year_clock
+{
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: .9em;
+  padding: 10px;
+}
+
+#last a:link
+{
+  color: white;
+}
+#last a:visited
+{
+  color:white;
+}
+
+#last a:hover
+{
+  color: rgb(36, 149, 255);
+}
+
+
+
+  .icons
+  {
+  
+   text-align: center;
+   margin-bottom: 10px;
+  
+  }
+
+  #facebook, #instagram, #twitter, #youtube
+  {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    
+  }
+
+  #facebook
+  {
+    background: url("../images/social_media/facebook_white.png") no-repeat;
+    background-size: 40px 40px;
+  }
+
+  #facebook:hover
+  {
+      background: url("../images/social_media/facebook_selected.png") no-repeat;
+      background-size: 40px 40px;
+  }
+
+#instagram
+{
+  background: url("../images/social_media/instagram_white.png") no-repeat;
+  background-size: 40px 40px;
+}
+
+#instagram:hover
+{
+  background: url("../images/social_media/instagram_selected.png") no-repeat;
+  background-size: 40px 40px;
+}
+
+#twitter
+{
+  background: url("../images/social_media/twitter_white.png") no-repeat;
+  background-size: 40px 40px;
+}
+
+#twitter:hover
+{
+  background: url("../images/social_media/twitter_selected.png") no-repeat;
+  background-size: 40px 40px;
+}
+
+#youtube
+{
+  background: url("../images/social_media/youtube_white.png") no-repeat;
+  background-size: 40px 40px;
+}
+
+#youtube:hover
+{
+  background: url("../images/social_media/youtube_selected.png") no-repeat;
+  background-size: 40px 40px;
+}
+
+
+
+
+/*Contact Page ----------------------------------------------------------------------------*/
+
+.header_directors
+{
+  text-align: center;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:rgb(107, 107, 107);
+  color: white;
+}
+
+#contact_large
+{
+margin-left: auto;
+margin-right: auto;
+margin-top: 30px;
+width: 90%;
+}
+
+.map_bg
+{
+  background-color: #2d357c;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#map
+{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 500px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#contact2
+{
+  color: white;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #2d357c;
+  border: 8px solid #FFA300;
+  width: 90%;
+}
+
+form
+{
+ 
+  margin-left: 18%;
+  margin-right: auto;
+  width: 90%;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  
+}
+
+label
+{
+text-align: left;
+position: relative;
+
+}
+
+textarea
+{
+  width: 70%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  border: 3px solid #C7C7C7;
+  border-radius: 5px;
+  height: 200px;
+}
+input
+{
+  width: 70%;
+  height: 40px;
+  border: 3px solid #C7C7C7;
+  border-radius: 5px;
+  margin-bottom: 25px;
+
+
+}
+
+#submit
+{
+  background-color: rgb(255, 187, 0);
+  border: none;
+  border-radius: 20px;
+  height: 60px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: -30px;
+  margin-left: 0px;
+}
+
+#submit:hover
+{
+  background-color: rgb(255, 123, 0);
+  cursor: pointer;
+}
+
+.bod_image
+{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-color: #2d357c;
+  position: relative;
+}
+
+.bod_title, .bod_name
+{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.bod_title
+{
+  margin-bottom: -10px;
+  
+}
+
+.bod_desc
+{
+  color: white;
+  background-color:rgb(233, 85, 0);
+  padding: 1px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+}
+
+.bod_profile
+{
+  margin-bottom: 70px;
+}
+.some_section
+{
+  padding-top: 60px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:rgb(107, 107, 107);
+  color: white;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: minmax(300px, 400px) minmax(300px, 400px);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.header
+{
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header_directors
+{
+  text-align: center;
+}
+
+
+
+/*City page*/
+/*---------------------------------------------------*/
+
+
+
+
+
+.article
+{
+  /*background-color: #FFA300;*/
+  background-color: #2d357c;
+  border: 8px solid #FFA300;
+  color: white;
+  line-height: 25px;
+  height: auto;
+  width: 85%;
+  margin-right: auto;
+  margin-left: auto;
+  word-wrap: break-word;
+  padding: 20px;
+}
+
+.header_center
+{
+  text-align: center;
+}
+
+.article_link:link, .article_link:visited
+{
+  color: white;
+}
+
+.article_link:hover
+{
+  color:rgb(36, 149, 255);
+}
+
+.wide_photo
+{
+  width: 95%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+
+
+.vintage_photos_gallery, .new_photos_gallery
+{
+  
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.vintage_item, .new_item
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+}
+
+

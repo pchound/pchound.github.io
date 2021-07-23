@@ -1,0 +1,889 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@media only screen and (min-width: 1030px)
+{
+    body{
+      background: rgb(255,255,255);
+      background: -moz-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(205,205,205,1) 100%);
+      background: -webkit-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(205,205,205,1) 100%);
+      background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(205,205,205,1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#cdcdcd",GradientType=1);
+      font-family: 'Spartan', sans-serif; 
+      max-width: 100%;
+      overflow-x: hidden; 
+    }
+
+
+        .logo_area
+        {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        }
+
+        .weather_alert
+        {
+        background-color: rgb(255, 78, 34);
+        border-radius: 10px;
+        height: 80px;
+        font-family: 'Spartan', sans-serif;
+        width: 450px;
+        margin-left: 5%;
+        text-align: center;
+        color: white;
+        padding: 20px;
+        padding-bottom: 20px;
+       
+        }
+        .weather_alert_text
+        {
+          position: relative;
+          bottom: 103px;
+          margin-bottom: -30px;
+          
+        }
+  
+
+        
+        .closebtn {
+            color: white;
+            font-weight: bold;
+            
+           
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            
+            height: 85px;
+            width: 50px;
+            font-size: 22px;
+            cursor: pointer;
+            transition: 0.3s;
+            position: relative;
+            left: 47%;
+            bottom: 10px;
+            }
+        
+        
+        .closebtn:hover {
+            color: black;
+          }
+
+        .main_logo
+        {
+            position: relative;
+            border-radius: 10px;
+            width: 400px;
+            height: auto;
+        }
+
+            .ham
+            {
+            display: none;
+            }
+
+            nav ul { 
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(15%, 1fr));
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                font-family: 'Spartan', sans-serif;
+                
+            }
+            
+            nav {	
+                
+                max-width: 1100px;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+                position: relative;
+
+                text-decoration: none;
+                -webkit-box-shadow: 0px 11px 15px 0px rgba(68,68,68,0.72); 
+                box-shadow: 0px 11px 15px 0px rgba(68,68,68,0.72);
+                border-top: 3px solid #ff7f00;
+                border-bottom: 3px solid #ff7f00;
+            
+                border-right: 3px solid #ff7f00;
+                
+            }
+            
+            nav a {
+                display: block;
+                background-color: #206482;
+                text-align: left;
+                padding: 0.75rem;
+                text-decoration: none;
+                font-size: 0.95rem;
+                color: white;
+                width: 200%;
+                border-left: 3px solid #ff7f00;
+            
+            }
+            
+            nav a:hover {
+                background-color: #bbb;
+                color: #36454f;
+            }
+            
+            nav ul li a:active, .active_link{
+                background-color: rgb(255, 255, 255);
+                color: #36454f;
+            }
+
+            
+            .big_pic
+            {
+              margin-top: 30px;
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+              max-width: 95%;
+
+              -webkit-box-shadow: 0px 7px 15px -4px rgba(0,0,0,0.68); 
+              box-shadow: 0px 7px 15px -4px rgba(0,0,0,0.68);
+            }
+
+            #three_businesses
+            {
+              display: grid;
+              grid-template-columns: 25% 25% 25% 25%;
+          
+              margin-left: auto;
+              margin-right: auto;
+           
+              max-width: 1150px;
+                grid-gap: 5px;
+            }
+          
+          
+            .business
+            {
+              width: 100%;
+              margin-left: auto;
+              margin-right: auto;
+              display: block;
+            }
+          
+            .business_box
+            {
+              background-color: #145571;
+              width: 70%;
+              display: block;
+              padding: 20px;
+              height: 150px;
+              display: flex;
+              align-items: center;
+              -webkit-box-shadow: 0px 7px 15px 0px rgba(0,0,0,0.32); 
+              box-shadow: 0px 7px 15px 0px rgba(0,0,0,0.32);
+            }
+
+
+
+
+
+
+
+
+
+
+
+            #icon1, #icon2, #icon3
+            {
+              position: relative;
+              bottom: 20px;
+            }
+            
+            .average
+            {
+              font-size: .6em;
+            }
+            
+            .data
+            {
+              font-size: 1.5em;
+              bottom: 20px;
+              position: relative;
+            }
+            
+            
+            .col-head 
+            {
+              display: block;
+              padding-top: 10px;
+              padding-bottom: 5px;
+              border-bottom: 3px solid #FFA300;
+              text-align: center;
+              font-size: 1.8em;
+              text-align: center;
+              font-weight: bold;
+            }
+            
+            
+            .column_group {
+            
+            font-family: Roboto;
+            column-count: 3;
+            width: 350px;
+            
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 30px;
+            
+            
+            }
+            
+            .column-col {
+            
+            font-family: 'Spartan', sans-serif;
+            background-color: #2d357c;
+            width: 100px;
+            text-align: center;
+            color: white;
+            border: 5px solid #FFA300;
+            height: 185px;
+            -webkit-box-shadow: 0px 7px 15px 0px rgba(0,0,0,0.48); 
+            box-shadow: 0px 7px 15px 0px rgba(0,0,0,0.48);
+
+            }
+            
+            /*#weather_box
+            {
+              margin-right: auto;
+              margin-left: auto;
+              width: 100%; 
+              align-items: center;
+              justify-content: center;
+              color: black;
+              display: grid;
+              grid-template-columns: 1fr 1fr;
+            }*/
+
+            #weather_box
+            {
+              width: 800px;
+              margin-left: auto;
+              margin-right: auto;
+              position: relative;
+              
+            color: white;
+              
+            }
+
+            #weather_box_outline
+            {
+              margin-top: 100px;
+              border: 20px solid #FFA300;
+             
+              max-height: 410px;
+             
+              min-width: 900px;
+              max-width: 1090px;
+              margin-left: auto;
+              margin-right: auto;
+              -webkit-box-shadow: 0px 7px 15px -4px rgba(0,0,0,0.68); 
+              box-shadow: 0px 7px 15px -4px rgba(0,0,0,0.68);
+              position: relative;
+              
+            }
+
+            .weather_today ul
+            {
+              
+            list-style-type: none;
+            width: 400px;
+            margin: 0 auto;
+            font-family: 'Roboto Mono', monospace;
+            text-align: center;
+            
+            position: relative;
+            right: 20px;
+
+            
+            
+            }
+            
+            .weather_today li
+            {
+              color: white;
+              background-color: #2d357c;
+              -webkit-box-shadow: 0px 7px 15px 0px rgba(0,0,0,0.32); 
+              box-shadow: 0px 7px 15px 0px rgba(0,0,0,0.32);
+              margin-bottom: 5px;
+              padding: 5px;
+              border: 0px solid #FFA300;
+            }
+
+            .weather_today li:first-child
+            {
+              margin-top: 75px;
+            }
+
+            .todays_forecast_header
+            {
+              font-family: 'Spartan', sans-serif;
+              color: black;
+              text-align: center;
+              text-shadow: 0px 5px 6px rgba(150, 150, 150, 0.48);
+            }
+
+
+            #north_ogden_weather_header
+            {
+              font-family: 'Spartan', sans-serif;
+              text-shadow: 0px 5px 6px rgba(150, 150, 150, 0.48);
+              text-align: center;
+              margin-bottom: -30px;
+              color: black;
+              
+            }
+
+              .upcoming_forecast_header
+            {
+              font-family: 'Spartan', sans-serif;
+              text-shadow: 0px 5px 6px rgba(150, 150, 150, 0.48);
+              text-align: center;
+              color: black;
+            }
+
+
+            #todays_forecast_group
+            {
+              right: 30%;
+              position: relative;
+              bottom: -80px;
+
+
+            }
+
+            #upcoming_forecast_group
+            {
+              position: relative;
+              left: 30%;
+              bottom: 180px;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+
+
+
+
+#part2
+{
+  min-width: 200px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  right: 5px;
+height: 250px;
+  
+}
+
+#upcoming_events_header, #contact_header
+{
+  text-align: center;
+}
+
+#events, #contact
+{
+  
+  color: white;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #2d357c;
+  border: 8px solid #FFA300;
+  -webkit-box-shadow: 0px 7px 15px -4px rgba(0,0,0,0.68); 
+  box-shadow: 0px 7px 15px -4px rgba(0,0,0,0.68);
+  
+}
+
+#events
+{
+  right: 28%;
+  position: relative;
+  width: 550px;
+  height: 240px;
+  
+}
+#contact
+{
+  position: relative;
+  left: 45%;
+  bottom: 286px;
+  width: 330px;
+  height: 240px;
+
+}
+#contact_content
+{
+  position: relative;
+  top: 10px;
+}
+
+#contact_content2
+{
+  
+}
+
+
+#last
+{
+  color: white;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #206482;
+
+
+  width: 50%;
+  font-size: 1em;
+  -webkit-box-shadow: 0px 7px 15px -4px rgba(0,0,0,0.68); 
+  box-shadow: 0px 7px 15px -4px rgba(0,0,0,0.68);
+}
+#events
+{
+  font-size: 1.2em;
+}
+
+
+
+#events li
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-right: 50px;
+  list-style-type: none;
+}
+
+#events_list li:nth-child(even)
+{
+  
+  margin-bottom: 30px;
+}
+
+#events_list, #contact
+{
+  
+  font-size: .8em;
+  line-height: 20px;
+}
+.event_time
+{
+  margin-bottom: 30px;
+}
+
+#weather_box_outline
+{
+  margin-top: 20px;
+  border: 15px solid #FFA300;
+  height: 730px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  right: 16px;
+}
+
+#contact_info
+{
+  text-align: center;
+  font-size: 1.2em;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#year_clock
+{
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: .9em;
+  padding: 10px;
+}
+
+
+
+#last a:link
+{
+  color: white;
+}
+#last a:visited
+{
+  color:white;
+}
+
+#last a:hover
+{
+  color: rgb(36, 149, 255);
+}
+
+  .icons
+  {
+  
+   text-align: center;
+   margin-bottom: 10px;
+  
+  }
+
+  #facebook, #instagram, #twitter, #youtube
+  {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+  }
+
+  #facebook
+  {
+    background: url("../images/social_media/facebook_white.png") no-repeat;
+    background-size: 30px 30px;
+  }
+
+  #facebook:hover
+  {
+      background: url("../images/social_media/facebook_selected.png") no-repeat;
+      background-size: 30px 30px;
+  }
+
+#instagram
+{
+  background: url("../images/social_media/instagram_white.png") no-repeat;
+  background-size: 30px 30px;
+}
+
+#instagram:hover
+{
+  background: url("../images/social_media/instagram_selected.png") no-repeat;
+  background-size: 30px 30px;
+}
+
+#twitter
+{
+  background: url("../images/social_media/twitter_white.png") no-repeat;
+  background-size: 30px 30px;
+}
+
+#twitter:hover
+{
+  background: url("../images/social_media/twitter_selected.png") no-repeat;
+  background-size: 30px 30px;
+}
+
+#youtube
+{
+  background: url("../images/social_media/youtube_white.png") no-repeat;
+  background-size: 30px 30px;
+}
+
+#youtube:hover
+{
+  background: url("../images/social_media/youtube_selected.png") no-repeat;
+  background-size: 30px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Contact Page ----------------------------------------------------------------------------*/
+
+.header_directors
+{
+  text-align: center;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:rgb(107, 107, 107);
+  color: white;
+}
+
+#contact_large
+{
+margin-left: auto;
+margin-right: auto;
+margin-top: 30px;
+width: 90%;
+}
+
+.map_bg
+{
+  background-color: #2d357c;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#map
+{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 500px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#contact2
+{
+  color: white;
+
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #2d357c;
+  border: 8px solid #FFA300;
+  width: 20%;
+  font-size: .8em;
+
+}
+
+form
+{
+ 
+  margin-left: 27%;
+  margin-right: auto;
+  width: 90%;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  
+}
+
+label
+{
+text-align: left;
+position: relative;
+
+}
+
+textarea
+{
+  width: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  border: 3px solid #C7C7C7;
+  border-radius: 5px;
+  height: 200px;
+}
+input
+{
+  width: 50%;
+  height: 40px;
+  border: 3px solid #C7C7C7;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  
+
+}
+
+#submit
+{
+  background-color: rgb(255, 187, 0);
+  border: none;
+  border-radius: 20px;
+  height: 60px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: -30px;
+  margin-left: 0px;
+}
+
+#submit:hover
+{
+  background-color: rgb(255, 123, 0);
+  cursor: pointer;
+}
+
+.bod_image
+{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-color: #2d357c;
+  position: relative;
+}
+
+.bod_title, .bod_name
+{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.bod_title
+{
+  margin-bottom: -10px;
+  
+}
+
+.bod_desc
+{
+  color: white;
+  background-color:rgb(233, 85, 0);
+  padding: 1px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 110px;
+}
+
+.bod_profile
+{
+  margin-bottom: 70px;
+}
+.some_section
+{
+  padding-top: 60px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:rgb(107, 107, 107);
+  color: white;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 25% 25% 25% 25%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.header
+{
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header_directors
+{
+  text-align: center;
+}
+
+
+.article
+{
+  /*background-color: #FFA300;*/
+  background-color: #2d357c;
+  border: 8px solid #FFA300;
+  color: white;
+  line-height: 25px;
+  height: auto;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  word-wrap: break-word;
+  padding: 20px;
+}
+
+.header_center
+{
+  text-align: center;
+}
+
+.article_link:link, .article_link:visited
+{
+  color: white;
+}
+
+.article_link:hover
+{
+  color:rgb(36, 149, 255);
+}
+
+
+.wide_photo
+{
+  width: 95%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+
+/*.article_button
+{
+  display: none;
+}*/
+
+
+
+
+.vintage_photos_gallery, .new_photos_gallery
+{
+  
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+
+.vintage_item, .new_item
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+}
